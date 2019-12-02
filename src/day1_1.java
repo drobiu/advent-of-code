@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class day1_1 {
     public static void main(String[] args) {
-        String sourceFile = "src_2";
+        String sourceFile = "src_1";
         Scanner sc = null;
         try {
             sc = new Scanner(new File(sourceFile));
@@ -16,7 +16,6 @@ public class day1_1 {
             System.out.println(sum);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } finally {
             sc.close();
         }
     }

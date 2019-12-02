@@ -11,7 +11,7 @@ public class day1_2 {
     }
 
     public static void main(String[] args) {
-        String sourceFile = "src_2";
+        String sourceFile = "src_1";
         Scanner sc = null;
         try {
             sc = new Scanner(new File(sourceFile));
@@ -23,7 +23,6 @@ public class day1_2 {
             System.out.println(sum);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } finally {
             sc.close();
         }
     }
